@@ -1,0 +1,348 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   '-g',
+1 verbose cli   'uninstall',
+1 verbose cli   'js-best-practices',
+1 verbose cli   '--save' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly uninstall loadAllDepsIntoIdealtree
+19 silly loadAllDepsIntoIdealTree Finishing
+20 silly idealTree:prePrune lib
+21 silly loadIdealTree Finishing
+22 silly currentTree lib
+22 silly currentTree └─┬ js-best-practices@1.2.0
+22 silly currentTree   ├── abbrev@1.0.9
+22 silly currentTree   ├── after@0.8.2
+22 silly currentTree   ├── ansi-regex@2.0.0
+22 silly currentTree   ├── ansi-styles@2.2.1
+22 silly currentTree   ├── ansicolors@0.3.2
+22 silly currentTree   ├── assertion-error@1.0.2
+22 silly currentTree   ├── balanced-match@0.4.2
+22 silly currentTree   ├── brace-expansion@1.1.6
+22 silly currentTree   ├── buffer-shims@1.0.0
+22 silly currentTree   ├── capture-stack-trace@1.0.0
+22 silly currentTree   ├─┬ cardinal@0.7.1
+22 silly currentTree   │ └── ansicolors@0.2.1
+22 silly currentTree   ├── chai@3.5.0
+22 silly currentTree   ├── chalk@1.1.3
+22 silly currentTree   ├── charm_inheritance-fix@1.0.1
+22 silly currentTree   ├─┬ colors-tmpl@1.0.0
+22 silly currentTree   │ └── colors@1.0.3
+22 silly currentTree   ├── colors@1.1.2
+22 silly currentTree   ├── combined-stream-wait-for-it@1.1.0
+22 silly currentTree   ├── commander@2.3.0
+22 silly currentTree   ├─┬ commandico@2.0.2
+22 silly currentTree   │ └── minimist@1.2.0
+22 silly currentTree   ├── concat-map@0.0.1
+22 silly currentTree   ├── core-util-is@1.0.2
+22 silly currentTree   ├── create-error-class@3.0.2
+22 silly currentTree   ├── debug@2.2.0
+22 silly currentTree   ├─┬ deep-eql@0.1.3
+22 silly currentTree   │ └── type-detect@0.1.1
+22 silly currentTree   ├── deep-extend@0.4.1
+22 silly currentTree   ├── delayed-stream@1.0.0
+22 silly currentTree   ├── diff@1.4.0
+22 silly currentTree   ├── duplexer2@0.0.2
+22 silly currentTree   ├── error-ex@1.3.0
+22 silly currentTree   ├── escape-string-regexp@1.0.5
+22 silly currentTree   ├── esprima@2.7.3
+22 silly currentTree   ├── explicit@0.1.1
+22 silly currentTree   ├── extended-terminal-menu@2.1.4
+22 silly currentTree   ├── fs.realpath@1.0.0
+22 silly currentTree   ├── glob@3.2.11
+22 silly currentTree   ├─┬ got@5.7.1
+22 silly currentTree   │ ├── duplexer2@0.1.4
+22 silly currentTree   │ ├── isarray@1.0.0
+22 silly currentTree   │ └── readable-stream@2.2.2
+22 silly currentTree   ├── growl@1.9.2
+22 silly currentTree   ├── has-ansi@2.0.0
+22 silly currentTree   ├── hoek@2.16.3
+22 silly currentTree   ├── i18n-core@2.1.1
+22 silly currentTree   ├── inflight@1.0.6
+22 silly currentTree   ├── inherits@2.0.3
+22 silly currentTree   ├── ini@1.3.4
+22 silly currentTree   ├── is-arrayish@0.2.1
+22 silly currentTree   ├── is-redirect@1.0.0
+22 silly currentTree   ├── is-retry-allowed@1.1.0
+22 silly currentTree   ├── is-stream@1.1.0
+22 silly currentTree   ├── isarray@0.0.1
+22 silly currentTree   ├── isemail@1.2.0
+22 silly currentTree   ├─┬ jade@0.26.3
+22 silly currentTree   │ ├── commander@0.6.1
+22 silly currentTree   │ └── mkdirp@0.3.0
+22 silly currentTree   ├── joi@6.10.1
+22 silly currentTree   ├── latest-version@2.0.0
+22 silly currentTree   ├── lowercase-keys@1.0.0
+22 silly currentTree   ├── lru-cache@2.7.3
+22 silly currentTree   ├── marked@0.3.6
+22 silly currentTree   ├── minimatch@0.3.0
+22 silly currentTree   ├── minimist@0.0.8
+22 silly currentTree   ├── mkdirp@0.5.1
+22 silly currentTree   ├─┬ mocha@2.5.3
+22 silly currentTree   │ ├── escape-string-regexp@1.0.2
+22 silly currentTree   │ └── supports-color@1.2.0
+22 silly currentTree   ├── moment@2.17.1
+22 silly currentTree   ├── ms@0.7.1
+22 silly currentTree   ├── msee@0.3.2
+22 silly currentTree   ├── mustache@0.8.2
+22 silly currentTree   ├── node-status-codes@1.0.0
+22 silly currentTree   ├── nopt@3.0.6
+22 silly currentTree   ├── object-assign@4.1.0
+22 silly currentTree   ├── once@1.4.0
+22 silly currentTree   ├── package-json@2.4.0
+22 silly currentTree   ├── parse-json@2.2.0
+22 silly currentTree   ├── path-is-absolute@1.0.1
+22 silly currentTree   ├── pinkie-promise@2.0.1
+22 silly currentTree   ├── pinkie@2.0.4
+22 silly currentTree   ├── prepend-http@1.0.4
+22 silly currentTree   ├── process-nextick-args@1.0.7
+22 silly currentTree   ├─┬ rc@1.1.6
+22 silly currentTree   │ └── minimist@1.2.0
+22 silly currentTree   ├─┬ read-all-stream@3.1.0
+22 silly currentTree   │ ├── isarray@1.0.0
+22 silly currentTree   │ └── readable-stream@2.2.2
+22 silly currentTree   ├── readable-stream@1.1.14
+22 silly currentTree   ├── redeyed@0.6.0
+22 silly currentTree   ├── registry-auth-token@3.1.0
+22 silly currentTree   ├── registry-url@3.1.0
+22 silly currentTree   ├── repeat-string@1.6.1
+22 silly currentTree   ├── resumer@0.0.0
+22 silly currentTree   ├─┬ rimraf@2.5.4
+22 silly currentTree   │ ├── glob@7.1.1
+22 silly currentTree   │ └── minimatch@3.0.3
+22 silly currentTree   ├── semver@5.3.0
+22 silly currentTree   ├── sigmund@1.0.1
+22 silly currentTree   ├── simple-terminal-menu@1.1.3
+22 silly currentTree   ├── split@1.0.0
+22 silly currentTree   ├── sprintf@0.1.5
+22 silly currentTree   ├── string_decoder@0.10.31
+22 silly currentTree   ├─┬ string-to-stream@1.1.0
+22 silly currentTree   │ ├── isarray@1.0.0
+22 silly currentTree   │ └── readable-stream@2.2.2
+22 silly currentTree   ├── strip-ansi@3.0.1
+22 silly currentTree   ├── strip-json-comments@1.0.4
+22 silly currentTree   ├── supports-color@2.0.0
+22 silly currentTree   ├── table-header@0.2.2
+22 silly currentTree   ├── text-table@0.2.0
+22 silly currentTree   ├── through@2.3.8
+22 silly currentTree   ├─┬ through2@0.6.5
+22 silly currentTree   │ └── readable-stream@1.0.34
+22 silly currentTree   ├── timed-out@3.1.0
+22 silly currentTree   ├── to-iso-string@0.0.2
+22 silly currentTree   ├── topo@1.1.0
+22 silly currentTree   ├── tuple-stream@0.0.2
+22 silly currentTree   ├── type-detect@1.0.0
+22 silly currentTree   ├── unzip-response@1.0.2
+22 silly currentTree   ├── url-parse-lax@1.0.0
+22 silly currentTree   ├── util-deprecate@1.0.2
+22 silly currentTree   ├── varsize-string@2.2.2
+22 silly currentTree   ├── wcsize@1.0.0
+22 silly currentTree   ├── wcstring@2.1.1
+22 silly currentTree   ├── workshopper-adventure-storage@3.0.0
+22 silly currentTree   ├─┬ workshopper-adventure@5.1.6
+22 silly currentTree   │ ├── isarray@1.0.0
+22 silly currentTree   │ ├── readable-stream@2.2.2
+22 silly currentTree   │ └── through2@2.0.3
+22 silly currentTree   ├─┬ workshopper-exercise@2.7.0
+22 silly currentTree   │ ├── isarray@1.0.0
+22 silly currentTree   │ ├── readable-stream@2.2.2
+22 silly currentTree   │ └── through2@2.0.3
+22 silly currentTree   ├── wrappy@1.0.2
+22 silly currentTree   └── xtend@4.0.1
+23 silly idealTree lib
+24 silly generateActionsToTake Starting
+25 silly install generateActionsToTake
+26 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/abbrev
+27 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/after
+28 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/ansi-regex
+29 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/ansi-styles
+30 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/ansicolors
+31 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/assertion-error
+32 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/balanced-match
+33 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/buffer-shims
+34 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/capture-stack-trace
+35 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/cardinal/node_modules/ansicolors
+36 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/charm_inheritance-fix
+37 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/colors
+38 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/colors-tmpl/node_modules/colors
+39 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/colors-tmpl
+40 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/commander
+41 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/commandico/node_modules/minimist
+42 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/concat-map
+43 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/brace-expansion
+44 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/core-util-is
+45 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/create-error-class
+46 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/deep-eql/node_modules/type-detect
+47 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/deep-eql
+48 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/deep-extend
+49 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/delayed-stream
+50 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/combined-stream-wait-for-it
+51 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/diff
+52 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/escape-string-regexp
+53 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/esprima
+54 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/fs.realpath
+55 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/got/node_modules/isarray
+56 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/growl
+57 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/has-ansi
+58 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/hoek
+59 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/inherits
+60 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/ini
+61 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/is-arrayish
+62 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/error-ex
+63 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/is-redirect
+64 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/is-retry-allowed
+65 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/is-stream
+66 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/isarray
+67 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/isemail
+68 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/jade/node_modules/commander
+69 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/jade/node_modules/mkdirp
+70 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/jade
+71 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/lowercase-keys
+72 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/lru-cache
+73 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/marked
+74 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/minimist
+75 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/mkdirp
+76 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/mocha/node_modules/escape-string-regexp
+77 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/mocha/node_modules/supports-color
+78 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/moment
+79 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/ms
+80 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/debug
+81 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/mustache
+82 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/node-status-codes
+83 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/nopt
+84 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/object-assign
+85 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/parse-json
+86 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/path-is-absolute
+87 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/pinkie
+88 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/pinkie-promise
+89 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/prepend-http
+90 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/process-nextick-args
+91 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/rc/node_modules/minimist
+92 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/read-all-stream/node_modules/isarray
+93 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/redeyed
+94 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/cardinal
+95 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/repeat-string
+96 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/rimraf/node_modules/minimatch
+97 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/semver
+98 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/sigmund
+99 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/minimatch
+100 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/glob
+101 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/sprintf
+102 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/i18n-core
+103 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/string_decoder
+104 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/readable-stream
+105 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/duplexer2
+106 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/string-to-stream/node_modules/isarray
+107 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/strip-ansi
+108 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/strip-json-comments
+109 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/rc
+110 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/registry-url
+111 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/registry-auth-token
+112 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/supports-color
+113 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/chalk
+114 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/table-header
+115 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/text-table
+116 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/through
+117 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/split
+118 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/resumer
+119 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/through2/node_modules/readable-stream
+120 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/timed-out
+121 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/to-iso-string
+122 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/mocha
+123 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/topo
+124 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/joi
+125 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/explicit
+126 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/commandico
+127 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/tuple-stream
+128 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/type-detect
+129 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/chai
+130 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/unzip-response
+131 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/url-parse-lax
+132 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/util-deprecate
+133 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/string-to-stream/node_modules/readable-stream
+134 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/string-to-stream
+135 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/read-all-stream/node_modules/readable-stream
+136 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/read-all-stream
+137 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/got/node_modules/readable-stream
+138 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/got/node_modules/duplexer2
+139 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/got
+140 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/package-json
+141 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/latest-version
+142 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/varsize-string
+143 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/wcsize
+144 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/wcstring
+145 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/workshopper-adventure/node_modules/isarray
+146 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/workshopper-adventure/node_modules/readable-stream
+147 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/workshopper-exercise/node_modules/isarray
+148 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/workshopper-exercise/node_modules/readable-stream
+149 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/wrappy
+150 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/once
+151 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/inflight
+152 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/rimraf/node_modules/glob
+153 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/rimraf
+154 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/workshopper-adventure-storage
+155 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/xtend
+156 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/workshopper-exercise/node_modules/through2
+157 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/workshopper-exercise
+158 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/workshopper-adventure/node_modules/through2
+159 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/through2
+160 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/extended-terminal-menu
+161 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/simple-terminal-menu
+162 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/msee
+163 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/workshopper-adventure
+164 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices
+165 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules
+166 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/cardinal/node_modules
+167 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/colors-tmpl/node_modules
+168 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/commandico/node_modules
+169 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/deep-eql/node_modules
+170 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/got/node_modules
+171 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/jade/node_modules
+172 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/mocha/node_modules
+173 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/rc/node_modules
+174 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/read-all-stream/node_modules
+175 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/rimraf/node_modules
+176 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/string-to-stream/node_modules
+177 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/through2/node_modules
+178 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/workshopper-adventure/node_modules
+179 warn checkPermissions Missing write access to /usr/local/lib/node_modules/js-best-practices/node_modules/workshopper-exercise/node_modules
+180 warn checkPermissions Missing write access to /usr/local/lib/node_modules
+181 silly rollbackFailedOptional Starting
+182 silly rollbackFailedOptional Finishing
+183 silly runTopLevelLifecycles Starting
+184 silly runTopLevelLifecycles Finishing
+185 silly install printInstalled
+186 verbose stack Error: EACCES: permission denied, access '/usr/local/lib/node_modules/js-best-practices/node_modules/abbrev'
+187 verbose cwd /home/phobos/promise-shop
+188 error Linux 5.0.0-37-generic
+189 error argv "/usr/bin/node" "/usr/bin/npm" "-g" "uninstall" "js-best-practices" "--save"
+190 error node v8.10.0
+191 error npm  v3.5.2
+192 error path /usr/local/lib/node_modules/js-best-practices/node_modules/abbrev
+193 error code EACCES
+194 error errno -13
+195 error syscall access
+196 error Error: EACCES: permission denied, access '/usr/local/lib/node_modules/js-best-practices/node_modules/abbrev'
+196 error  { Error: EACCES: permission denied, access '/usr/local/lib/node_modules/js-best-practices/node_modules/abbrev'
+196 error   errno: -13,
+196 error   code: 'EACCES',
+196 error   syscall: 'access',
+196 error   path: '/usr/local/lib/node_modules/js-best-practices/node_modules/abbrev' }
+197 error Please try running this command again as root/Administrator.
+198 verbose exit [ -13, true ]
