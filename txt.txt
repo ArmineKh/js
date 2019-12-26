@@ -1,0 +1,9 @@
+https://github.com/workshopper/javascripting
+https://github.com/workshopper/learnyounode
+https://github.com/workshopper/scope-chains-closures
+https://github.com/timoxley/functional-javascript-workshop
+https://github.com/sporto/planetproto
+https://github.com/excellalabs/js-best-practices-workshopper
+https://github.com/kishorsharma/currying-workshopper
+https://github.com/workshopper/regex-adventure
+https://github.com/stevekane/promise-it-wont-hurt
