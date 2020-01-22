@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+ <div id="app">
+
+<p>{{fullName}}</p>
+
+   <span v-bind:title="message">
+     Наведи на меня курсор на пару секунд,
+     чтобы увидеть динамически связанное значение title!
+   </span>
+<br>
+   <span v-if="seen">Сейчас меня видно</span>
+<br>
+   <ol>
+     <li v-for="todo in todos">
+       {{ todo.text }}
+     </li>
+   </ol>
+<br>
+<hr>
+   <div id="watch-example">
+  <p>
+    Задайте вопрос, на который можно ответить «да» или «нет»:
+    <input v-model="question">
+  </p>
+  <p>{{ answer }}</p>
+</div>
+
+<hr>
+
+<div id="components-demo">
+  <button-counter></button-counter>
+  <button-counter></button-counter>
+  <button-counter></button-counter>
+  
+</div>
+
+
+ </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script type="text/javascript" src="script.js">
+
+  </script>
+</body>
+</html>
